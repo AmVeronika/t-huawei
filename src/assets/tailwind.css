@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.w-fill-a {
+    width: -webkit-fill-available;
+}
+
+.border-1 {
+    border-width: 1px;
+}
+.border-1-gray {
+    border: 1px solid gray;
+}
+.border-1:focus-visible {
+    outline-width: 0 !important;
+    border-width: 1px !important;
+}
+.border-y-1 {
+    border-bottom: 1px solid #b9b9b9;
+    border-top: 1px solid #b9b9b9;
+}
+.border-b-1 {
+    border-bottom: 1px solid #b9b9b9;
+}
+.grid-cols-cust {
+    grid-template-columns: 60px repeat(auto-fit, minmax(0, 1fr));
+}
+.grid-cols-photo {
+    grid-template-columns: 100px repeat(auto-fit, minmax(0, 1fr));
+}
+.line-h-38 {
+    line-height: 38px;
+}
+.line-h-2 {
+    line-height: 2rem;
+}
+.font-s-30 {
+    font-size: 30px;
+}
+.btn-arrow {
+    opacity: 0;
+}
